@@ -15,6 +15,7 @@
     auto-fit-transform-origin
     role="tooltip"
     @popup-visible-change="handlePopupVisibleChange"
+    v-bind="$attrs"
   >
     <slot />
     <template #content>
