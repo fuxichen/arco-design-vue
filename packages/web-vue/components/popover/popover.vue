@@ -14,6 +14,7 @@
     animation-name="zoom-in-fade-out"
     auto-fit-transform-origin
     @popup-visible-change="handlePopupVisibleChange"
+    v-bind="$attrs"
   >
     <slot />
     <template #content>
